@@ -1,0 +1,36 @@
+{
+    // PHP Intelephense - Auto imports
+    "intelephense.completion.insertUseDeclaration": true,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
+    "intelephense.completion.maxItems": 100,
+    
+    // Auto importar al guardar
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    
+    // Laravel Blade
+    "blade.format.enable": true,
+    
+    // PHP específico
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    
+    // Archivos PHP en Laravel
+    "files.associations": {
+        "*.blade.php": "blade"
+    },
+    
+    // Excluir carpetas de búsqueda
+    "search.exclude": {
+        "**/vendor": true,
+        "**/node_modules": true,
+        "**/storage": true,
+        "**/bootstrap/cache": true
+    }
+}
