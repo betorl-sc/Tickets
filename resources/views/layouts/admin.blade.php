@@ -25,12 +25,15 @@
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/fb837c0d6c.js" crossorigin="anonymous"></script>
 
+    <!-- Trix Editor -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
+    <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
 
     <!-- Styles -->
     @livewireStyles
 </head>
 
-<body class="font-sans antialiased bg-gray-100">
+<body class="font-sans antialiased bg-theme-light/10">
 
 
     @include('layouts.includes.admin.navigation')
